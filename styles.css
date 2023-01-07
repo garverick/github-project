@@ -4,11 +4,24 @@
 	padding: 0;
 	font-family: 'roboto', sans-serif;
 }
+.webpage {
+	display: flex;
+}
+
+.left,
+.right {
+	flex: 1;
+	background-color: #1F2937;
+}
+
+.center .one{
+	flex-grow: 0;
+}
 
 header,
 .topic {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	padding: 1em 100px 0 100px;
 	background-color: #1F2937;
 	color:#F9FAF8;
@@ -26,7 +39,7 @@ header,
 .intro {
 	display: flex;
 	flex-direction: column;
-	max-width: 450px;
+	max-width: 440px;
 }
 
 button {
@@ -35,7 +48,8 @@ button {
 	max-width: 100px;
 	background-color: #3882F6;
 	color: #F9FAF8;
-	padding: 5px 2px;	
+	padding: 5px 2px;
+	border-radius: 5px;
 }
 
 ul {
@@ -71,3 +85,26 @@ a {
 	object-fit: cover;
 }
 
+.text {
+	display: flex;
+	justify-content: center;
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+	padding: 32px;
+}
+
+.data {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+}
+
+.one, .two,
+.three, .four {
+	border: 1px solid blue;
+	width: 150px;
+	height: 150px;
+	border-radius: 5px;
+	
+}
