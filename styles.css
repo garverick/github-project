@@ -85,7 +85,7 @@ a {
 	object-fit: cover;
 }
 
-.text {
+.boxone.text {
 	display: flex;
 	justify-content: center;
 	font-size: 36px;
@@ -98,13 +98,87 @@ a {
 	display: flex;
 	gap: 50px;
 	justify-content: center;
+	}
+
+.planet {
+	max-width: 200px;
+	height: 200px;
+	border: 4px solid #3882F6;
+	border-radius: 12px;
+	object-fit: cover;
 }
 
-.one, .two,
-.three, .four {
-	border: 1px solid blue;
-	width: 150px;
-	height: 150px;
-	border-radius: 5px;
+p {
+	text-align: center;
+	max-width: 200px;
+}
+
+.container {
+	padding-bottom: 100px;
+}
+
+body {
+	justify-content: center;
+}
+.boxtwo {
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+	background-color: rgb(236, 236, 236);
+}
+
+.quote {
+	max-width: 790px;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1F2937;
+}
+
+span {
+	display: flex;
+	justify-content: flex-end;
+	font-style: normal;
+	font-weight: 900;
+}
+
+.boxthree {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #3882F6;
+	margin: 80px 120px;
+	padding: 40px 20px;
+	color: #F9FAF8;
+	border-radius: 8px;
+}
+
+.tag span {
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+
+.boxthree button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3882F6;
+	color: #F9FAF8;
+	width: 7em;
+	height: 2em;
+	border-radius: 6px;
+	border: 1px solid white;
 	
+}
+
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+	background-color: #1F2937;
+	color: #F9FAF8;
+	font-size: 12px;
 }
